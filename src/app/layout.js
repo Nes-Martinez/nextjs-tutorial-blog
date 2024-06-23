@@ -24,12 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        classnName={cx(
-          inter.variable,
-          manrope.variable,
-          "font-mr bg-light dark:bg-dark"
-        )}
-        className={`${inter.variable} ${manrope.variable} font-mr bg-light`}
+        className={cx(inter.variable, manrope.variable, "font-mr bg-light")}
       >
         <Header />
         {children}
